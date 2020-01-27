@@ -1,0 +1,121 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: .1rem;
+  color: #FFFFFF;
+  background-color: #010e11;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: .1rem;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+.navigation a {
+  color: #7289DA;
+  text-decoration: none;
+}
+
+.navigation a:visited {
+  color: #FFFFFF;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.computers-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.printers-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1rem;
+  border: 2px solid #99AAB5;
+  padding: 0 1rem 0 1rem;
+  font-size: .5rem;
+  transition-property: all;
+  transition-duration: 0.12s;
+  transition-timing-function: ease-out;
+  transition-delay: 0.01s;
+  position: relative;
+}
+
+
+.card:hover {
+  top: -3px;
+  box-shadow: 0 2px 4px 0 #FFFFFF;
+}
+
+.card:active {
+  border: 2px solid #7289DA;
+}
+
+#generate-button {
+  padding: 10px 10px 10px 10px;
+
+}
+
+.logo {
+  background-color: #011011;
+}
+
+#computers-menu {
+  display: flex;
+  flex-direction: row;
+  text-transform: uppercase;
+}
+
+#printers-menu {
+  display: flex;
+  flex-direction: row;
+  text-transform: uppercase;
+}
+
+.btn {
+  background: #F800ff;
+  color: #F0FBFE;
+  border: 1px solid #F800FF;
+  border-radius: 2px;
+  padding: 6px 10px;
+  transition-property: all;
+  transition-duration: .3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+.btn:hover {
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-color: currentcolor;
+}

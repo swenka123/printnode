@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Swenka's PrintNode Tool</title>
+	<link href="styles.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bangers|Montserrat|Open+Sans:300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<a href="index.html"><h1>LOGO HERE</h1></a>
+			<!--https://discordapp.com/branding-->
+		<h1 class="title">Swenka's Printnode Tool</h1>
+		<nav class="navigation">
+			<ul>
+				<li><a href="#">Login</a></li>
+				<li><a href="https://www.printnode.com/en/docs/api/curl#overview">How It Works</a></li>
+				<li><a href="#">Admin Arena</a></li>
+				<li><a href="#">Dark Mode</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="container">
+		<div class="container">
+			<div class="item">
+				<h2 class="title">Sub Name:</h2>
+				<input type="text" placeholder="Search Sub List...">
+			</div>
+			<div class="item">
+				<h2 class="title">API Key:</h2>
+				<input type="text" placeholder="API Key...">
+			</div>
+		</div>
+		<div class="container" id="ping-menu">PrintNode Status: </div>
+	</div>
+
+	<div class="container">
+		<div class="item">
+			<h2 class="title">Computers:</h2>
+			<div id="computers-menu" class="computers-container">
+				<!--Script adds cards with an H1 and P here-->
+			</div>
+		</div>
+		<div class="item">
+			<h2 class="title">Printers:</h2>
+			<div id="printers-menu" class="printers-container">
+				<!--Script adds cards with an H1 and P here-->
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div id="generate-button">
+			<button type="button" class="btn">Generate</button>
+		</div>
+	</div>
+
+	<!--
+	<div>
+		Print job stuff goes here after generating
+	</div>
+	-->
+
+	<div id="root"></div>
+	<script src="script-testing.js" defer></script>
+</body>
+
+</html>
